@@ -1,0 +1,55 @@
+# Predložena poboljšanja za To-Be proces:
+1. Digitalizacija prijava
+As-Is: Student ispunjava prijavu ručno i donosi je osobno u ured.
+To-Be: Implementirati online sustav za podnošenje prijava. Studenti ispunjavaju prijave putem web-platforme koja automatski provjerava osnovne greške (npr. nepotpuni podaci, neispravni formati).
+Korist: Uklanja fizičku dostavu, smanjuje ručne provjere i ubrzava prvi korak.
+2. Automatska validacija prijava
+As-Is: Administrator ručno provjerava prijave.
+To-Be: Online sustav provjerava osnovne uvjete i obavještava studente o pogreškama prije podnošenja prijave.
+Korist: Smanjuje ručne provjere i broj povrata prijava studentima.
+3. Automatizacija bodovanja i selekcije
+As-Is: Administrator ručno izrađuje tablicu bodovanja.
+To-Be: Sustav generira tablicu bodovanja na temelju unesenih podataka i automatski ih prosljeđuje povjerenstvu.
+Korist: Brže generiranje i smanjenje mogućnosti pogrešaka.
+4. Elektronski zapisnici i potpisi
+As-Is: Zapisnici i ugovori se printaju i ručno potpisuju.
+To-Be: Koristiti digitalne zapisnike i elektronske potpise (e-potpis).
+Korist: Eliminira vrijeme čekanja na potpise dekana i koordinatora.
+5. Automatizacija komunikacije
+As-Is: Administrator ručno obavještava studente i računovodstvo.
+To-Be: Sustav automatski šalje obavijesti studentima i računovodstvu putem e-maila.
+Korist: Smanjuje ručno administriranje.
+6. Integracija s računovodstvom
+As-Is: Administrator i računovodstvo provjeravaju obračun odvojenim procesima.
+To-Be: Sustav automatski obračunava isplate i šalje podatke računovodstvu za finalnu potvrdu.
+Korist: Eliminira ručne provjere i smanjuje rework loop.
+Procijenjeno smanjenje vremena
+Digitalizacija i automatizacija smanjuju ručne provjere, povrat prijava i čekanje na potpise.
+Procijenjeno smanjenje vremena: 30-50% ukupnog trajanja procesa.
+Swimlane dijagram (To-Be proces)
+
+# Koraci procesa:
+
+Student:
+- Prijava putem online platforme.
+- Dopuna prijave u slučaju grešaka (automatska obavijest sustava).
+
+Administrator:
+- Validacija prijava (automatizirana).
+- Organizacija selekcijskog postupka.
+- Digitalno slanje zapisnika povjerenstvu za bodovanje i potpis.
+
+Povjerenstvo:
+- Elektronski potpisi zapisnika i tablice bodovanja.
+
+Administrator:
+- Izrada ugovora (digitalno).
+- Automatska obavijest studentu za e-potpis ugovora.
+
+Dekan i Koordinator:
+- Elektronski potpisi ugovora.
+
+Računovodstvo:
+- Automatska provjera obračuna.
+- Potvrda obračuna i odobrenje isplate.
+
